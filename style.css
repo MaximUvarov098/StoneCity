@@ -3,6 +3,14 @@ header{
     width: 100%;
     flex-direction: column;
 }
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
 .title{
     display: flex;
     width: 100%;
@@ -31,18 +39,19 @@ header{
     height: 20%;
 }
 .text{
-    font-family: 'Segoe UI', bold;
+    font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
     margin-bottom: auto;
     margin-top: auto;
+    font-weight: 400;
 }
 .text#left {   
-    font-family: 'Segoe UI', bold;    
+    font-family: 'Segoe UI', sans-serif;    
     font-size: 14px;
     margin-right: 25px;
 }
 .text#right {   
-    font-family: 'Segoe UI', bold;    
+    font-family: 'Segoe UI', sans-serif;    
     font-size: 14px;
     margin-left: 40px;
 }
@@ -62,7 +71,7 @@ header{
     margin-right: 5px;
 }
 .num{
-    font-family: 'Segoe UI', bold;
+    font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
     margin-bottom: auto;
     margin-top: auto;
@@ -73,8 +82,8 @@ header{
 .items{
     display: flex;
     height: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 8%;
+    padding-right: 8%;
     border-top: 2px solid #140E4124;
     box-shadow: 0px 4px 10px rgba(20, 14, 65, 0.08);
     
@@ -86,18 +95,18 @@ header{
 }
 /*--------------------*/
 .block{
+    width: 1360px;
+    height: 765px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: auto;
-    width: auto;
-    background-image: url(img/Ded.png);
-    height: 577px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 5px;
-    align-items: center;
-    position: relative;
+}
+#myVideo {
+    position: absolute;
+    min-width: 1360px;
+    min-height: 577px;
+    z-index: -1;
 }
 .textinblock{
     font-family: 'Playfair Display', serif;
@@ -113,10 +122,145 @@ header{
     flex-direction: column;
 }
 .pause{
-    margin-left: 75%;
+    margin-left: 85%;
     margin-bottom: 10px;
 }
-.content{
-    padding-left: 5%;
-    padding-right: 5%;
+.content {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 13px, 20px, 15px, 20px;
 }
+#but{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    color: #140E41;
+    background: #F4F4F4;
+    width: 194px;
+    height: 50px;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+    
+}
+/*--------------------*/
+.line{
+    display: flex;
+}
+.plitkared{
+    border-radius: 4px;
+    margin: 10px;
+    width: 440px;
+    background-color: #C83936;
+    height: 250px;
+}
+.plitkamedium{
+    width: 325px;
+    border-radius: 4px;
+    background-color: #F4F4F4;
+    height: 250px;
+    margin: 10px;
+}
+.plitkasmall{
+    border-radius: 4px;
+    width: 210px;
+    height: 250px;
+    background-color: #F4F4F4;
+    margin: 10px;
+}
+.plitkalarge{
+    border-radius: 4px;
+    margin: 10px;
+    width: 440px;
+    background-color: #F4F4F4;
+    height: 250px;
+}
+.plitimg{
+    position: absolute;
+    margin-top: 18.5px;
+    margin-left: 228.5px;
+    background-size: auto;
+}
+.plitimg#plt2{
+    position: absolute;
+    margin-top: 19.5px;
+    margin-left: 223.61px;
+    background-size: auto;
+}
+.plitimg#plt3{
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 118px;
+    background-size: auto;
+}
+.plitimg#plt4{
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 66px;
+    background-size: auto;
+}
+.plitimg#plt5{
+    position: absolute;
+    margin-top: 30.94px;
+    margin-left: 114.5px;
+    background-size: auto;
+}
+.plitimg#plt6{
+    position: absolute;
+    margin-top: 27.5px;
+    margin-left: 224.5px;
+    background-size: auto;
+}
+.plitimg#plt7{
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 118px;
+    background-size: auto;
+}
+.plitimg#plt8{
+    position: absolute;
+    margin-top: 23.35px;
+    margin-left: 303px;
+    background-size: auto;
+}
+.plitktextred{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 26px;
+    margin-top: 196px;
+    
+}
+.plitktext{
+    display:flex;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 26px;
+    margin-top: 196px;
+}
+.plitktext#dblline{
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 26px;
+    margin-top: 179px;
+}
+.cif{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    color: #C83936;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.cif#dblline{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    color: #C83936;
+    font-weight: 600;
+    margin-right: 148px;
+}
+
