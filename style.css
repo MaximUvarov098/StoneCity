@@ -263,4 +263,99 @@ a{
     font-weight: 600;
     margin-right: 148px;
 }
-
+/*---------------------*/
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutline{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #000000;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 10%;
+}
+.abouttext{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 20.8px;
+    margin-right: 20%;
+    
+}
+.aboutblock{
+    width: 50%;
+}
+#but1{
+    margin-top: 20px;
+    background: #140E41;
+    width: 212px;
+    height: 50px;
+    border-radius: 6px;
+    padding: 13px 20px 15px 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    border: none;
+}
+#but2{
+    margin-top: 20px;
+    background: #140E41;
+    width: 248px;
+    height: 50px;
+    border-radius: 6px;
+    padding: 13px 20px 15px 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    border: none;
+}
+.aboutimg#img1{
+    position: absolute;
+    width: 440px;
+    height: 598px;
+    border-radius: 4px;
+    
+}
+.aboutimg#img2{
+    position: absolute;
+    width: 108.29px;
+    height: 110.61px;
+    margin-left: 450px;
+    margin-top: 240px;
+    
+}
+.aboutimg#img3{
+    position: absolute;
+    width: 230px;
+    height: 306px;
+    border-radius: 4px;
+    margin-left: 340px;
+    margin-top: 370px;  
+}
+.aboutimg#img4{
+    position: absolute;
+    width: 440px;
+    height: 598px;
+    border-radius: 4px 130px 4px 4px;
+    margin-top: 85px;
+}
+.aboutimg#img5{
+    position: absolute;
+    width: 120px;
+    height: 91.35px;
+    margin-left: 380px;
+    margin-top: 30px;
+}
+.images{
+    width: 50%;
+}
