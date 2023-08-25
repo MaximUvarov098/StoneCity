@@ -267,7 +267,9 @@ a{
 .about{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .aboutline{
     display: flex;
@@ -359,3 +361,54 @@ h1{
 .images{
     width: 50%;
 }
+/*---------------*/
+.preim{
+    display: flex;
+    justify-items: center;
+}
+.frame{
+    background: #F4F4F4;
+    height: 294px;
+    width: 670px;
+    border-radius: 4px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 400;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.frametext{
+    font-family: 'Sergor UI', sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+    margin-right: 40%;
+}
+.frameimg#img1{
+    position: absolute;
+    margin-left: 550px;
+    margin-bottom: 85px;
+}
+.frameimg#img2{
+    position: absolute;
+    margin-left: 500px;
+    margin-bottom: 85px;
+}
+.frameimg#img3{
+    position: absolute;
+    margin-left: 450px;
+    margin-bottom: 100px;
+}
+.frameimg#img4{
+    position: absolute;
+    margin-left: 450px;
+    margin-bottom: 130px;
+}
+/*--------------*/
