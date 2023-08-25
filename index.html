@@ -8,57 +8,124 @@
     <link rel="stylesheet" href="style.css">
     <title>КаменьГрад</title>
 </head>
-<body>
-   <header>
-        <div class="title">
-            <div class="blockleft">
-                <div class="text" id="left">О нас</div>
-                <div class="text" id="left">Контакты</div>
-            </div>
-            <div class="logo">
-                <img src="img/logo.svg">           
-            </div>
-            <div class="blockright">
-                <div class="icon" id="kur">
-                    <img src="img/icon.svg">
+    <body>
+        <header>
+            <div class="title">
+                <div class="blockleft">
+                    <div class="text" id="left">О нас</div>
+                    <div class="text" id="left">Контакты</div>
                 </div>
-                <div class="text">Кострома</div>
-                <div class="num" id="right">+7 (4942) 30-31-32</div>
-                <div class="icon">
-                    <img src="img/find.svg">
+                <div class="logo">
+                    <img src="img/logo.svg">           
                 </div>
-                <div class="icon">
-                    <img src="img/korzina.svg">
+                <div class="blockright">
+                    <div class="icon" id="kur">
+                        <img src="img/icon.svg">
+                    </div>
+                    <div class="text">Кострома</div>
+                    <div class="num" id="right">+7 (4942) 30-31-32</div>
+                    <div class="icon">
+                        <img src="img/find.svg">
+                    </div>
+                    <div class="icon">
+                        <img src="img/korzina.svg">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="items">
-            <div class="itemstext">
-                <a href="#">Конструктор</a>
+            <div class="items">
+                <div class="itemstext">
+                    <a href="#">Конструктор</a>
+                </div>
+                <div class="itemstext">Памятники</div>
+                <div class="itemstext">Благоустройство</div>
+                <div class="itemstext">Ограды</div>
+                <div class="itemstext">Столы и скамьи</div>
+                <div class="itemstext">Дополнительная комплектация</div>
+                <div class="itemstext">Кресты</div>
+                <div class="itemstext">Венки</div>
             </div>
-            <div class="itemstext">Памятники</div>
-            <div class="itemstext">Благоустройство</div>
-            <div class="itemstext">Ограды</div>
-            <div class="itemstext">Столы и скамьи</div>
-            <div class="itemstext">Дополнительная комплектация</div>
-            <div class="itemstext">Кресты</div>
-            <div class="itemstext">Венки</div>
-        </div>
-    </header>
-    <div class="content">
-        <div class="block">
-            <div class="textinblock">Недорогие памятники от производителя</div>
-            <div>
-                <a href="#">
-                    <img src="img/bt.svg">
-                </a> 
-            </div>
-            <div class="pause">
-                <a href="#">
-                    <img src="img/pause.svg">
+</header>
+        <div class="block" >
+                <video autoplay muted loop id="myVideo">
+                    <source src="video/video.mp4" type="video/mp4">
+                </video>
+                <div class="content">
+                    <div class="textinblock">Недорогие памятники от производителя</div>
+                    <div>
+                        <button id="but">Выбрать памятник</button>
+                    </div>
+                    <div class="pause">
+                        <a href="#">
+                            <img src="img/pause.svg">
+                        </a>
+                    </div>
+                </div>
+</div>
+        <div class="line">
+                <a class="plitkared" href="#">
+                    <div class="plitimg">
+                        <img src="img/plt1.svg">
+                    </div>
+                    <div class="plitktextred">Конструктор</div>
                 </a>
-            </div>
-        </div>
-    </div>
-</body>
+                <a class="plitkamedium" href="#">
+                    <div class="plitimg">
+                        <img src="img/plt2.svg">
+                    </div>
+                    <div class="plitktext" id="plt2">Памятники
+                        <div class="cif">102</div>
+                    </div>
+                </a>
+                <a class="plitkamedium" href="#">
+                    <div class="plitimg" id="plt3">
+                        <img src="img/plt3.svg">
+                    </div>
+                    <div class="plitktext">Благоустройство
+                        <div class="cif">12</div>
+                    </div>
+                </a>
+                <a class="plitkasmall" href="#">
+                    <div class="plitimg" id="plt4">
+                        <img src="img/plt4.svg">
+                    </div>
+                    <div class="plitktext">Ограды
+                        <div class="cif">23</div>
+                    </div>
+                </a>
+</div>
+        <div class="line">
+                <a class="plitkamedium" href="#">
+                    <div class="plitimg" id="plt5">
+                        <img src="img/plt5.svg">
+                    </div>
+                    <div class="plitktext">Столы и скамьи
+                        <div class="cif">6</div>
+                    </div>
+                </a>
+                <a class="plitkamedium" href="#">
+                    <div class="plitimg" id="plt6">
+                        <img src="img/plt6.svg">
+                    </div>
+                    <div class="plitktext" id="dblline">Дополнительная комплектация
+                        <div class="cif" id="dblline">8</div>
+                    </div>
+                </a>
+                <a class="plitkasmall" href="#">
+                    <div class="plitimg" id="plt7">
+                        <img src="img/plt7.svg">
+                    </div>
+                    <div class="plitktext">Кресты
+                        <div class="cif">62</div>
+                    </div>
+                </a>
+                <a class="plitkalarge" href="#">
+                    <div class="plitimg" id="plt8">
+                        <img src="img/plt8.svg">
+                    </div>
+                    <div class="plitktext">Венки
+                        <div class="cif">12</div>
+                    </div>
+                </a>
+</div>
+    </body>
 </html>
