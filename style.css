@@ -282,7 +282,6 @@ h1{
     color: #000000;
     font-weight: 400;
     line-height: normal;
-    margin-right: 10%;
 }
 .abouttext{
     font-family: 'Segoe UI', sans-serif;
@@ -457,3 +456,58 @@ h2{
 .moreimg{
     margin: 20px 30px 20px 20px;
 }
+/*-----------------*/
+.map{
+    display: flex;
+    width: 1360px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+h3{
+    font-family: 'Sergoe UI', sans-serif;
+    font-size: 26px;
+    line-height: 34.58px;
+    font-weight: 400;
+}
+.numandrus{
+    display: flex;
+    width: 100%;
+}
+.pred{
+    border-bottom: 1px solid #140E4124;
+    border-top: 1px solid #140E4124
+        
+}
+.numtext{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 10px 10px 0px;
+    line-height: 20.8px;
+}
+.numtext#an{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+}
+.pol1{
+    width:50%;
+}
+.mapimg{
+    width: 785px;
+    height: 439px;
+    margin-top: 20px;
+    margin-left: 575px;
+    position: absolute;
+    
+}
+.adres{
+    display: flex;
+    width: 1360px;
+    
+}
+/*----------------*/
